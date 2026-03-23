@@ -18,4 +18,4 @@ fi
 filecount=$(find "$1" -type f | wc -l)
 matchcount=$(grep -r "$2" "$1" 2>/dev/null| wc -l)
 
-echo "The number of files are $filecount and the number of matching lines are $matchcount)"
+echo "The number of files are $filecount and the number of matching lines are $matchcount"
